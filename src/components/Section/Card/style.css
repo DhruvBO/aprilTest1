@@ -1,0 +1,31 @@
+.card_main {
+    background-color: #FAEBD7;
+    margin: 1rem auto;
+    width: 50%;
+    border-bottom: 2px solid #ffbe6a;
+    border-radius: 5%;
+}
+.card_main__card_wrapper {
+    background-color: #FAEBD7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+   
+}
+
+.card_main__card_wrapper__card_heading {
+    padding: 1rem;
+}
+
+.card_main__card_wrapper__card_image img {
+   width: 85%;
+   padding: 1rem;
+
+}
+
+.card_main__card_wrapper__card_id {
+    padding: 1rem;
+}

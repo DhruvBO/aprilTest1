@@ -1,0 +1,34 @@
+.detail_view {
+  background-color: #faebd7;
+  padding: 1rem;
+}
+
+.detail_view__content {
+  text-align: left;
+  padding: 2rem;
+  margin: 1rem 2rem 1rem 2rem;
+  border-bottom: 2px solid #ffcb86;
+  border-radius: 5rem;
+}
+
+.table_value {
+  padding-left: 1rem;
+}
+
+.detail_view__back_button {
+  padding: 0.2rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffcd8a;
+  border: 2px solid #ffcb86;
+}
+
+.detail_view__image {
+  padding: 3rem;
+}
+
+.detail_view__image img {
+  height: 50%;
+  width: 80%;
+
+
+}

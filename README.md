@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# April 2, 2022 Saturday Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tasks:
+
+- Implement Continuous scroll view or Growbale List or Table View (using Pagination) as you see in Instagram or Facebook Feeds. (LIST IMAGES API)
+  - Use download_url Key for Cell Item Thumbnail
+  - Show Both Image and Author Name
+  - Wherever user stops for more than 5 seconds in last 2 cell item of the list, Write "I am the chosen one" + "Value of ID" underneath Author Name
+- Click on Detailed view of Image and show it In Another screen (DETAILED API)\*
+  - Step 1: Open Detail view opens right away with download_Url value received from List Image
+  - Step 2: Call Detailed API and Replace placeholder image with url key image (Only after calling Detailed API, not from List Images API)
+- Click back to Go back on List screen
+
+## Setup
+
+Use the package manager [npm](https://docs.npmjs.com/) to install.
+
+```bash
+npm i && npm start
+```
 
 ## Available Scripts
 
@@ -31,16 +48,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Infinity scroll view for images.
+- Detail image view.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technology
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- Other library:
+  - Axios: Axios is a Javascript library used to make HTTP requests from node. js or XMLHttpRequests from the browser

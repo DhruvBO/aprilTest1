@@ -1,0 +1,6 @@
+.error_msg {
+    padding: 4rem;
+    margin: 3rem;
+    color: red;
+    background-color: rgb(223, 176, 176);
+}
